@@ -3,7 +3,7 @@
 //  Boat
 //
 //  Created by Venkatesh B h on 4/1/19.
-//  Copyright © 2019 Apple Inc. All rights reserved.
+//  Copyright Â© 2019 Apple Inc. All rights reserved.
 //
 #include <windows.h>
 #include <GL/glut.h>
@@ -99,10 +99,7 @@ void display1(void)
 
     display_string(250,150+30,"PRESS SPACE BAR TO ENTER",2);
     display_string(500,700,"Done by:",2);
-    display_string(500,650,"1.Venkatesh B H (17IT248)",2);
-    display_string(500,600,"2.Rashad Ahmed (17IT132)",2);
-    display_string(500,550,"3.Niteesh Kumar (17IT228)",2);
-    display_string(500,500,"4.Vishal Nirney (17IT250)",2);
+    display_string(500,650,"Venkatesh B H (17IT248)",2);
     glutPostRedisplay();
     glutSwapBuffers();
 
